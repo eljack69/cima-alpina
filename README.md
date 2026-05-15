@@ -1,12 +1,15 @@
-# Cima Alpina — Landing demo
+# Sierra Norte — Landing demo
 
-Landing estática para una **agencia de viajes ficticia** llamada **Cima Alpina**,
-especializada en escapadas refinadas a los Alpes europeos (Suiza, Austria,
-Dolomitas italianos, Francia, Eslovenia). Foco editorial: senderismo, lagos
-alpinos, chalets, trenes panorámicos, gastronomía de montaña.
+Landing estática para una **agencia de viajes ficticia** llamada **Sierra Norte**,
+especializada en tours editoriales por la sierra norte del Perú (Chachapoyas,
+Cajamarca, Amazonas). Foco editorial: Kuelap, Catarata de Gocta, sarcófagos de
+Karajía, Cumbe Mayo, Granja Porcón, haciendas coloniales y bosques nublados.
+
+> Nota: el slug y la URL pública siguen siendo `cima-alpina/` por compatibilidad
+> con el despliegue original; solo cambian la marca y el contenido.
 
 ## Aviso de marca ficticia
-- **Cima Alpina** es una marca demostrativa creada para este portafolio.
+- **Sierra Norte** es una marca demostrativa creada para este portafolio.
 - Direcciones, teléfonos, emails, handles de redes y testimonios son **placeholders
   verosímiles** — no corresponden a un negocio real.
 - No se cobran reservas, no hay formularios funcionales ni tracking.
