@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cima Alpina — Escapadas refinadas a los Alpes europeos</title>
+  <meta name="description" content="Cima Alpina diseña viajes editoriales por los Alpes: senderismo en Dolomitas, chalets en Zermatt y Hallstatt, trenes panorámicos y gastronomía de montaña en Suiza, Austria, Francia, Italia y Eslovenia." />
+
+  <meta property="og:title" content="Cima Alpina — Escapadas refinadas a los Alpes europeos" />
+  <meta property="og:description" content="Senderismo, chalets, lagos alpinos y trenes panorámicos. Itinerarios privados por Suiza, Austria, Dolomitas, Francia y Eslovenia." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1600&q=80" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_ES" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="canonical" href="https://eljack69.github.io/cima-alpina/" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+
+  <!-- ============= NAV ============= -->
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="#inicio" aria-label="Cima Alpina, inicio">
+      <span class="nav__logo-mark" aria-hidden="true"></span>
+      Cima Alpina
+    </a>
+    <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__menu" id="menu" aria-label="Menú principal">
+      <a href="#inicio" class="nav__link is-active">Inicio</a>
+      <a href="#rutas" class="nav__link">Rutas</a>
+      <a href="#chalets" class="nav__link">Chalets</a>
+      <a href="#estaciones" class="nav__link">Estaciones</a>
+      <a href="#reservar" class="nav__link">Reservar</a>
+    </nav>
+    <a href="#reservar" class="nav__cta">Solicitar dossier</a>
+  </header>
+
+  <main>
+
+    <!-- ============= HERO ============= -->
+    <section class="hero" id="inicio">
+      <div class="hero__media" aria-hidden="true">
+        <img
+          src="https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=2400&q=80"
+          alt=""
+          fetchpriority="high"
+        />
+      </div>
+
+      <div class="hero__inner">
+        <p class="hero__eyebrow">Suiza · Austria · Dolomitas · Francia · Eslovenia</p>
+        <h1 class="hero__title">El silencio<br />tiene <em>altura</em>.</h1>
+        <p class="hero__lede">Diseñamos viajes editoriales por los Alpes europeos: senderos antiguos, lagos de deshielo, chalets con sauna y trenes que cruzan glaciares sin ruido. Slow travel premium, curado a cuatro manos.</p>
+        <div class="hero__actions">
+          <a href="#rutas" class="btn btn--primary">Ver rutas verano <span class="btn__arrow" aria-hidden="true">→</span></a>
+          <a href="#chalets" class="btn btn--ghost">Conocer chalets</a>
+        </div>
+      </div>
+
+      <div class="hero__meta" aria-hidden="true">
+        <strong>46.0207° N</strong>
+        Matterhorn, Zermatt<br />
+        2.547 m · primera luz
+      </div>
+    </section>
+
+    <!-- ============= INTRO NARRATIVA ============= -->
+    <section class="intro" aria-label="Manifiesto">
+      <div class="intro__grid">
+        <p class="intro__label">El estudio</p>
+        <p class="intro__text reveal">
+          Cima Alpina no es una agencia. Es un cuaderno de campo con itinerarios. Caminamos los senderos antes de
+          recomendarlos, cenamos en los <em>refugios</em> antes de incluirlos, y dejamos siempre una mañana libre
+          para que mires la montaña sin tener que llegar a ningún sitio.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============= RUTAS ============= -->
+    <section class="section rutas" id="rutas" aria-labelledby="rutas-titulo">
+      <div class="section__head">
+        <div>
+          <p class="section__eyebrow">Cuatro itinerarios</p>
+          <h2 id="rutas-titulo" class="section__title">Senderos que <em>vale la pena</em> caminar despacio.</h2>
+        </div>
+        <p class="section__intro">Rutas de 5 a 10 días, en grupos privados de 2 a 8 personas, con guía local certificado, transporte por tren panorámico y noches alternadas entre refugios alpinos y chalets restaurados.</p>
+      </div>
+
+      <div class="rutas__grid">
+
+        <article class="ruta reveal">
+          <div class="ruta__media">
+            <img
+              src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=80"
+              alt="Cordillera de los Dolomitas al amanecer, picos rosa sobre niebla baja."
+              loading="lazy"
+            />
+            <span class="ruta__num">N.º 01</span>
+            <span class="ruta__pais">Italia · Dolomitas</span>
+          </div>
+          <h3 class="ruta__title">Alta Via 1 — Dolomitas</h3>
+          <p class="ruta__sub">De Lago di Braies a Belluno, atravesando los pasos clásicos.</p>
+          <dl class="ruta__stats">
+            <div class="ruta__stat"><dt>Días</dt><dd>7</dd></div>
+            <div class="ruta__stat"><dt>Distancia</dt><dd>118 km</dd></div>
+            <div class="ruta__stat"><dt>Desnivel +</dt><dd>6.800 m</dd></div>
+            <div class="ruta__stat"><dt>Alojamiento</dt><dd>Refugio</dd></div>
+          </dl>
+        </article>
+
+        <article class="ruta reveal">
+          <div class="ruta__media">
+            <img
+              src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=1200&q=80"
+              alt="Senderistas frente al macizo del Mont Blanc en un día despejado."
+              loading="lazy"
+            />
+            <span class="ruta__num">N.º 02</span>
+            <span class="ruta__pais">Francia · Italia · Suiza</span>
+          </div>
+          <h3 class="ruta__title">Tour del Mont Blanc</h3>
+          <p class="ruta__sub">El circuito clásico de 170 km en tres países alpinos.</p>
+          <dl class="ruta__stats">
+            <div class="ruta__stat"><dt>Días</dt><dd>10</dd></div>
+            <div class="ruta__stat"><dt>Distancia</dt><dd>170 km</dd></div>
+            <div class="ruta__stat"><dt>Desnivel +</dt><dd>10.200 m</dd></div>
+            <div class="ruta__stat"><dt>Alojamiento</dt><dd>Mixto</dd></div>
+          </dl>
+        </article>
+
+        <article class="ruta reveal">
+          <div class="ruta__media">
+            <img
+              src="https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=1200&q=80"
+              alt="Tren panorámico cruzando un valle alpino con praderas verdes."
+              loading="lazy"
+            />
+            <span class="ruta__num">N.º 03</span>
+            <span class="ruta__pais">Suiza · Engadina</span>
+          </div>
+          <h3 class="ruta__title">Engadina &amp; St. Moritz</h3>
+          <p class="ruta__sub">Caminatas suaves entre lagos, glaciares y el Bernina Express.</p>
+          <dl class="ruta__stats">
+            <div class="ruta__stat"><dt>Días</dt><dd>5</dd></div>
+            <div class="ruta__stat"><dt>Distancia</dt><dd>62 km</dd></div>
+            <div class="ruta__stat"><dt>Desnivel +</dt><dd>2.400 m</dd></div>
+            <div class="ruta__stat"><dt>Alojamiento</dt><dd>Chalet</dd></div>
+          </dl>
+        </article>
+
+        <article class="ruta reveal">
+          <div class="ruta__media">
+            <img
+              src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80"
+              alt="Lago alpino color esmeralda rodeado de bosques de coníferas."
+              loading="lazy"
+            />
+            <span class="ruta__num">N.º 04</span>
+            <span class="ruta__pais">Eslovenia · Triglav</span>
+          </div>
+          <h3 class="ruta__title">Parque Nacional Triglav</h3>
+          <p class="ruta__sub">El secreto mejor guardado de los Alpes Julianos: Bled, Bohinj, Soča.</p>
+          <dl class="ruta__stats">
+            <div class="ruta__stat"><dt>Días</dt><dd>6</dd></div>
+            <div class="ruta__stat"><dt>Distancia</dt><dd>74 km</dd></div>
+            <div class="ruta__stat"><dt>Desnivel +</dt><dd>4.100 m</dd></div>
+            <div class="ruta__stat"><dt>Alojamiento</dt><dd>Mixto</dd></div>
+          </dl>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============= CHALETS ============= -->
+    <section class="section chalets" id="chalets" aria-labelledby="chalets-titulo">
+      <div class="section__head">
+        <div>
+          <p class="section__eyebrow">Tres alojamientos curados</p>
+          <h2 id="chalets-titulo" class="section__title">Chalets donde la vista <em>cuenta</em> el desayuno.</h2>
+        </div>
+        <p class="section__intro">Cada chalet ha sido visitado, dormido y desayunado por nuestro equipo. No trabajamos con cadenas: solo casas familiares, hoteles boutique y refugios firmados por arquitectos locales.</p>
+      </div>
+
+      <div class="chalets__list">
+
+        <article class="chalet reveal">
+          <div class="chalet__media">
+            <img
+              src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1400&q=80"
+              alt="Chalet de madera oscura con grandes ventanales y el Matterhorn al fondo."
+              loading="lazy"
+            />
+            <span class="chalet__tag">Suiza · Zermatt</span>
+          </div>
+          <div>
+            <span class="chalet__num">N.º I</span>
+            <h3 class="chalet__title">Maison Cervin</h3>
+            <p class="chalet__lugar">Zermatt, Valais — 1.620 m</p>
+            <p class="chalet__copy">Una casa de larch quemado a la salida del pueblo, sin coches en kilómetros. Ocho habitaciones, dos chimeneas, y un balcón que no necesita decoración: tiene el Cervino enmarcado de extremo a extremo.</p>
+            <ul class="chalet__amenities">
+              <li>Vista directa al Matterhorn desde habitaciones sur</li>
+              <li>Sauna alpino finlandés y baño de heno</li>
+              <li>Mesa privada con menú degustación de producto valesano</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="chalet reveal">
+          <div class="chalet__media">
+            <img
+              src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1400&q=80"
+              alt="Interior cálido de chalet alpino con vigas de madera y sofás bajos."
+              loading="lazy"
+            />
+            <span class="chalet__tag">Italia · Val Gardena</span>
+          </div>
+          <div>
+            <span class="chalet__num">N.º II</span>
+            <h3 class="chalet__title">Rifugio Larix</h3>
+            <p class="chalet__lugar">Ortisei, Dolomitas — 1.890 m</p>
+            <p class="chalet__copy">Un viejo establo ladino reconvertido en doce suites, con suelo radiante de piedra local y baños abiertos al bosque. La cocina es de producto: knödel, queso de alpeggio, manzanas del valle. Sin Wi-Fi en habitaciones, por elección.</p>
+            <ul class="chalet__amenities">
+              <li>Restaurante con una estrella Michelin verde</li>
+              <li>Acceso directo al sendero del Sassolungo</li>
+              <li>Biblioteca de montaña con primeras ediciones</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="chalet reveal">
+          <div class="chalet__media">
+            <img
+              src="https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?auto=format&fit=crop&w=1400&q=80"
+              alt="Casa de madera tradicional austriaca junto a un lago alpino al atardecer."
+              loading="lazy"
+            />
+            <span class="chalet__tag">Austria · Salzkammergut</span>
+          </div>
+          <div>
+            <span class="chalet__num">N.º III</span>
+            <h3 class="chalet__title">Haus Hallstatt</h3>
+            <p class="chalet__lugar">Hallstatt, Alta Austria — 511 m</p>
+            <p class="chalet__copy">A pie de lago, seis habitaciones con embarcadero propio. El desayuno se sirve sobre el agua en madera de cedro. Por la tarde, sauna sobre el muelle y luego bote de remos al silencio del fiordo.</p>
+            <ul class="chalet__amenities">
+              <li>Embarcadero privado con botes de madera</li>
+              <li>Sauna flotante sobre el lago</li>
+              <li>Cena maridada con vinos austriacos del Wachau</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============= FILOSOFÍA ============= -->
+    <section class="section filo" id="filosofia" aria-labelledby="filo-titulo">
+      <div class="filo__grid">
+
+        <div class="filo__media-stack reveal">
+          <img
+            src="https://images.unsplash.com/photo-1527525443983-6e60c75fff46?auto=format&fit=crop&w=1100&q=80"
+            alt="Andén de tren panorámico suizo con bancos de madera y bruma alpina."
+            loading="lazy"
+          />
+          <img
+            class="filo__img-2"
+            src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=900&q=80"
+            alt="Lago alpino al atardecer con reflejos dorados sobre el agua quieta."
+            loading="lazy"
+          />
+        </div>
+
+        <div class="filo__body">
+          <p class="section__eyebrow">Slow alpine</p>
+          <h2 id="filo-titulo">Viajar por <em>tren</em>. Dormir alto. Despertar despacio.</h2>
+          <p>
+            En Cima Alpina no medimos los viajes en kilómetros recorridos, sino en mañanas regaladas a una ventana.
+            Cruzamos los Alpes en tren porque el avión los aplasta. Compramos el queso al productor porque el envase
+            no sabe a nada. Y dejamos un día libre por semana, sin excusas, para que la montaña te haga su propio
+            programa.
+          </p>
+
+          <ol class="filo__principios">
+            <li>
+              <span class="num">01</span>
+              <span class="lbl">Tren antes que avión</span>
+              <span class="dsc">Bernina Express, Glacier Express, ÖBB Nightjet. Llegar es ya parte del viaje.</span>
+            </li>
+            <li>
+              <span class="num">02</span>
+              <span class="lbl">Producto del valle</span>
+              <span class="dsc">Queserías, panaderías, viñedos a menos de 20 km del plato.</span>
+            </li>
+            <li>
+              <span class="num">03</span>
+              <span class="lbl">Dormir alto</span>
+              <span class="dsc">Refugios sobre los 2.000 m: la noche allí cuenta más que tres en el valle.</span>
+            </li>
+            <li>
+              <span class="num">04</span>
+              <span class="lbl">Una mañana libre</span>
+              <span class="dsc">Sin agenda. La montaña improvisa mejor que nosotros.</span>
+            </li>
+          </ol>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============= ESTACIONES (matriz) ============= -->
+    <section class="section estaciones" id="estaciones" aria-labelledby="est-titulo">
+      <div class="section__head">
+        <div>
+          <p class="section__eyebrow">Calendario alpino</p>
+          <h2 id="est-titulo" class="section__title">Cuándo ir, según <em>la montaña</em>.</h2>
+        </div>
+        <p class="section__intro">No todos los meses se caminan igual. Esta matriz resume nuestra recomendación por destino: temporada baja (más solitaria, clima variable), temporada media (color y luz) y temporada alta (senderos abiertos en plenitud).</p>
+      </div>
+
+      <div class="estaciones__wrap reveal">
+        <table class="calendario">
+          <caption class="sr-only">Temporadas recomendadas por destino y mes.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Destino</th>
+              <th scope="col">Ene</th>
+              <th scope="col">Feb</th>
+              <th scope="col">Mar</th>
+              <th scope="col">Abr</th>
+              <th scope="col">May</th>
+              <th scope="col">Jun</th>
+              <th scope="col">Jul</th>
+              <th scope="col">Ago</th>
+              <th scope="col">Sep</th>
+              <th scope="col">Oct</th>
+              <th scope="col">Nov</th>
+              <th scope="col">Dic</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Dolomitas — Alta Via 1</th>
+              <td class="cell"></td>
+              <td class="cell"></td>
+              <td class="cell"></td>
+              <td class="cell"></td>
+              <td class="cell"></td>
+              <td class="cell cell--mid"></td>
+              <td class="cell cell--peak"></td>
+              <td class="cell cell--peak"></td>
+              <td class="cell cell--peak"></td>
+              <td class="cell cell--low"></td>
+              <td class="cell"></td>
+              <td class="cell"></td>
+            </tr>
+            <tr>
+              <th scope="row">Mont Blanc — TMB</th>
+              <td class="cell"></td>
+              <td class="cell"></td>
+              <td class="cell"></td>
+              <td class="cell"></td>
+              <td class="cell"></td>
+              <td class="cell cell--mid"></td>
+              <td class="cell cell--peak"></td>
+              <td class="cell cell--peak"></td>
+              <td class="cell cell--mid"></td>
+              <td class="cell"></td>
+              <td class="cell"></td>
+              <td class="cell"></td>
+            </tr>
+            <tr>
+              <th scope="row">Engadina &amp; St. Moritz</th>
+              <td class="cell cell--low"></td>
+              <td class="cell cell--low"></td>
+              <td class="cell cell--low"></td>
+              <td class="cell"></td>
+              <td class="cell cell--mid"></td>
+              <td class="cell cell--peak"></td>
+              <td class="cell cell--peak"></td>
+              <td class="cell cell--peak"></td>
+              <td class="cell cell--peak"></td>
+              <td class="cell cell--mid"></td>
+              <td class="cell"></td>
+              <td class="cell cell--low"></td>
+            </tr>
+            <tr>
+              <th scope="row">Triglav (Eslovenia)</th>
+              <td class="cell"></td>
+              <td class="cell"></td>
+              <td class="cell"></td>
+              <td class="cell cell--low"></td>
+              <td class="cell cell--mid"></td>
+              <td class="cell cell--peak"></td>
+              <td class="cell cell--peak"></td>
+              <td class="cell cell--peak"></td>
+              <td class="cell cell--mid"></td>
+              <td class="cell cell--low"></td>
+              <td class="cell"></td>
+              <td class="cell"></td>
+            </tr>
+            <tr>
+              <th scope="row">Hallstatt — Salzkammergut</th>
+              <td class="cell cell--low"></td>
+              <td class="cell cell--low"></td>
+              <td class="cell"></td>
+              <td class="cell cell--mid"></td>
+              <td class="cell cell--mid"></td>
+              <td class="cell cell--peak"></td>
+              <td class="cell cell--peak"></td>
+              <td class="cell cell--peak"></td>
+              <td class="cell cell--mid"></td>
+              <td class="cell cell--mid"></td>
+              <td class="cell"></td>
+              <td class="cell cell--low"></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="calendario__legend" aria-hidden="true">
+          <span><i class="l-low"></i> Temporada baja — silenciosa, clima variable</span>
+          <span><i class="l-mid"></i> Temporada media — color y luz larga</span>
+          <span><i class="l-peak"></i> Temporada alta — senderos plenos</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============= CITA ============= -->
+    <section class="section cita" id="cita" aria-labelledby="cita-titulo">
+      <div class="cita__wrap">
+        <div class="cita__media reveal">
+          <img
+            src="https://images.unsplash.com/photo-1485470733090-0aae1788d5af?auto=format&fit=crop&w=900&q=80"
+            alt="Viajera con mochila contemplando una vista panorámica de los Alpes."
+            loading="lazy"
+          />
+        </div>
+        <div class="cita__body reveal">
+          <span class="cita__quote-mark" aria-hidden="true">“</span>
+          <h2 id="cita-titulo" class="cita__quote">
+            Volvimos sin fotos del Cervino y con una libreta llena. Es el viaje más caro que hemos pagado y el que menos nos costó disfrutar.
+          </h2>
+          <p class="cita__autor"><strong>Inés y Manuel R.</strong> — Tour del Mont Blanc, septiembre</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============= CTA ============= -->
+    <section class="cta" id="reservar" aria-labelledby="cta-titulo">
+      <div class="cta__inner">
+        <p class="cta__eyebrow">Plazas limitadas · temporada 2026</p>
+        <h2 id="cta-titulo" class="cta__title">Cuéntanos tu <em>idea</em> de montaña.</h2>
+        <p class="cta__lead">Escríbenos cuatro líneas — dónde te gustaría dormir, cuántos sois, qué nivel de caminata. Te respondemos con un dossier curado en menos de 72 horas.</p>
+        <a href="mailto:hola@cimaalpina.demo" class="btn btn--line">Solicitar dossier <span class="btn__arrow" aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============= FOOTER ============= -->
+  <footer class="footer" id="contacto">
+    <div class="footer__grid">
+      <div>
+        <span class="footer__brand">Cima Alpina</span>
+        <p class="footer__tag">Escapadas refinadas a los Alpes europeos, curadas a cuatro manos.</p>
+        <p class="footer__copy">Marca demostrativa creada para un portafolio. Direcciones, teléfonos y precios son ficticios.</p>
+      </div>
+      <div>
+        <h4>Estudio</h4>
+        <address>
+          Bahnhofstrasse 47<br />
+          8001 Zúrich — Suiza<br />
+          +41 44 555 0166
+        </address>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#rutas">Rutas</a></li>
+          <li><a href="#chalets">Chalets</a></li>
+          <li><a href="#estaciones">Estaciones</a></li>
+          <li><a href="#reservar">Reservar</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="mailto:hola@cimaalpina.demo">hola@cimaalpina.demo</a></li>
+          <li><a href="tel:+41445550166">+41 44 555 0166</a></li>
+          <li>Lun – Vie · 09:00 – 18:00 CET</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© <span id="year">2026</span> Cima Alpina · Demo de portafolio</p>
+      <div class="footer__social" aria-label="Redes sociales">
+        <a href="#" aria-label="Instagram de Cima Alpina">Instagram</a>
+        <a href="#" aria-label="Journal de Cima Alpina">Journal</a>
+        <a href="#" aria-label="Pinterest de Cima Alpina">Pinterest</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
